@@ -1,0 +1,6 @@
+0. start node
+1. deploy the contract in './contract' via forc deploy
+2. run the script in './script' with the id of the deployed contract 'forc run --contract CONTRACT_ID'
+3. see the issue:
+[{"Call":{"amount":0,"asset_id":"0000000000000000000000000000000000000000000000000000000000000000","gas":99999967,"id":"f6e299e74a18e19e0befb47780dad1acb810b818f5f4db5f20595980d6e68a11","is":11416,"param1":559005003,"param2":0,"pc":11416,"to":"f6e299e74a18e19e0befb47780dad1acb810b818f5f4db5f20595980d6e68a11"}},{"Panic":{"id":"f6e299e74a18e19e0befb47780dad1acb810b818f5f4db5f20595980d6e68a11","is":11416,"pc":11468,"reason":{"instruction":{"imm06":19,"imm12":1043,"imm18":70675,"imm24":4789267,"op":45,"ra":18,"rb":17,"rc":16,"rd":19},"reason":"MemoryOverflow"}}},{"ScriptResult":{"gas_used":560,"result":"Panic"}}]
+
